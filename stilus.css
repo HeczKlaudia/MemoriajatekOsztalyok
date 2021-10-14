@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+  border-style: border-box;
+}
+
+body {
+  background: gray;
+  font-family: "Verdana", sans-serif;
+}
+
+main {
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px;
+}
+
+article div {
+  border: 1px solid black;
+}
+
+article div img {
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
